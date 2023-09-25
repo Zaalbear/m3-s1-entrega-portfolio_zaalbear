@@ -17,11 +17,12 @@
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 1rem;
 }
 
 .list__item{
-    width: 25rem;
+    width: 45%;
     height: 10rem;
     padding: 1rem;
 
