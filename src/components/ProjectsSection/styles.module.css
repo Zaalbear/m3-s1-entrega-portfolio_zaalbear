@@ -1,0 +1,68 @@
+.projectsSection__container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section__title{
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.products__list{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.list__item{
+    width: 25rem;
+    height: 10rem;
+    padding: 1rem;
+
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.github__icon{
+    width: 2.3125rem;
+    height: 2.375rem;
+}
+
+.item__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item__name{
+    color: var(--white);
+    font-size: 1.375rem;
+    font-weight: 800;
+}
+
+.item__description{
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.more__bttn{
+    border: none;
+    background-color: transparent;
+    color: #6880FF;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: start;
+}
+
