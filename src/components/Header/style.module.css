@@ -1,0 +1,40 @@
+.header__container{
+    width: 100%;
+    /* padding: 2rem; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 4.375rem;
+    height: 0.875rem;
+}
+
+.nav__container {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__item {
+    text-decoration: none;
+
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.contact__bttn {
+    width: 7.125rem;
+    height: 2.4375rem;
+
+    border-radius: 12px;
+    background: var(--primary-color);
+
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+}

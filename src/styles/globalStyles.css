@@ -1,0 +1,24 @@
+:root{
+    /* Colors */
+    --gray-00: #000;
+    --gray-01: #181818;
+    --gray-02: #263238;
+    --gray-03: #455A64;
+    --gray-04: #E0E0E0;
+    --gray-05:#EBEBEB;
+    --gray-06: #FAFAFA;
+    --white: #FFFFFF;
+
+    --primary-color: #6880FF;
+}
+
+body, #root {
+    background-color: var(--gray-01);
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
